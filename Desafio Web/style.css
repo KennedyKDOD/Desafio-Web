@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagem3.jpg);
+    background-size: cover;}
+
+
+.introducao {text-align: center;
+            padding-top: 30px;}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* geral */
+h1 {font-family: Arial, Helvetica, sans-serif;}
+
+p {text-indent: 20px;
+    padding: 2%;}
+h2 {background-color: rgb(72, 180, 216);
+    text-align: center;
+    margin: 3em }
+
+html {background-image:;}
+
+a {
+    color: rgb(0, 26, 70);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(123, 123, 145);
+}
+
+
+.local {display: flex;}
+   
+
+/* tamanho das imagens*/
+#bongueid {
+    width: 35%;
+    padding-right: 5em;}
+#morroredondoid {
+    width: 40%;
+    padding-left: 5em;
+    }
+#cachoeiraaltaid {
+    width: 40%;
+    padding-right: 5em;
+}
+#cristaisid {
+    width: 40%;
+    padding-left: 5em;
+}
+
+
+
+
+footer {text-align: center;
+        padding-top: 5em;}
+
+
+
+
+/* medias 
+mobile*/
+@media (max-width: 600px) {
+    .local {display: block;}
+    .imagem {align-items: center;}}
+}
